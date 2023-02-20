@@ -1,9 +1,9 @@
 import { useContext } from "react";
 import { QuizContext } from "../context/quiz";
 
-import WellDone from "../img/category.svg";
+import Category from "../img/category.svg";
 
-import "./PickCategory.css";
+import "../components/PickCategory.css";
 
 const PickCategory = () => {
     const [quizState, dispatch] = useContext(QuizContext);
